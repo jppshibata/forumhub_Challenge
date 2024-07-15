@@ -5,7 +5,6 @@ import com.forumhub_challenge.domain.course.Course;
 import com.forumhub_challenge.domain.user.User;
 import jakarta.validation.constraints.NotNull;
 
-import java.time.LocalDateTime;
 
 public record TopicUpdateData(
         @NotNull
